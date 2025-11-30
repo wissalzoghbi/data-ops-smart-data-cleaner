@@ -1,0 +1,62 @@
+=== Missing Values ===
+Pool QC           2917
+Misc Feature      2824
+Alley             2732
+Fence             2358
+Mas Vnr Type      1775
+Fireplace Qu      1422
+Lot Frontage       490
+Garage Cond        159
+Garage Qual        159
+Garage Finish      159
+Garage Yr Blt      159
+Garage Type        157
+Bsmt Exposure       83
+BsmtFin Type 2      81
+Bsmt Cond           80
+Bsmt Qual           80
+BsmtFin Type 1      80
+Mas Vnr Area        23
+Bsmt Half Bath       2
+Bsmt Full Bath       2
+BsmtFin SF 1         1
+Garage Cars          1
+Garage Area          1
+Total Bsmt SF        1
+Bsmt Unf SF          1
+BsmtFin SF 2         1
+Electrical           1
+dtype: int64
+
+=== Duplicates ===
+0 duplicate rows found.
+
+=== Summary Stats ===
+             Order           PID  MS SubClass MS Zoning  Lot Frontage  ...      Mo Sold      Yr Sold Sale Type Sale Condition      SalePrice
+count   2930.00000  2.930000e+03  2930.000000      2930   2440.000000  ...  2930.000000  2930.000000      2930           2930    2930.000000
+unique         NaN           NaN          NaN         7           NaN  ...          NaN          NaN        10              6            NaN
+top            NaN           NaN          NaN        RL           NaN  ...          NaN          NaN       WD          Normal            NaN
+freq           NaN           NaN          NaN      2273           NaN  ...          NaN          NaN      2536           2413            NaN
+mean    1465.50000  7.144645e+08    57.387372       NaN     69.224590  ...     6.216041  2007.790444       NaN            NaN  180796.060068
+std      845.96247  1.887308e+08    42.638025       NaN     23.365335  ...     2.714492     1.316613       NaN            NaN   79886.692357
+min        1.00000  5.263011e+08    20.000000       NaN     21.000000  ...     1.000000  2006.000000       NaN            NaN   12789.000000
+25%      733.25000  5.284770e+08    20.000000       NaN     58.000000  ...     4.000000  2007.000000       NaN            NaN  129500.000000
+50%     1465.50000  5.354536e+08    50.000000       NaN     68.000000  ...     6.000000  2008.000000       NaN            NaN  160000.000000
+75%     2197.75000  9.071811e+08    70.000000       NaN     80.000000  ...     8.000000  2009.000000       NaN            NaN  213500.000000
+max     2930.00000  1.007100e+09   190.000000       NaN    313.000000  ...    12.000000  2010.000000       NaN            NaN  755000.000000
+
+[11 rows x 82 columns]
+
+=== Data Types ===
+Order               int64
+PID                 int64
+MS SubClass         int64
+MS Zoning          object
+Lot Frontage      float64
+                   ...   
+Mo Sold             int64
+Yr Sold             int64
+Sale Type          object
+Sale Condition     object
+SalePrice           int64
+Length: 82, dtype: object

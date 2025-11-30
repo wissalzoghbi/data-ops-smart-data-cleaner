@@ -1,0 +1,131 @@
+=== Description ===
+             Order           PID  MS SubClass MS Zoning  Lot Frontage       Lot Area Street Alley Lot Shape Land Contour Utilities Lot Config Land Slope Neighborhood Condition 1 Condition 2 Bldg Type House Style  Overall Qual  Overall Cond   Year Built  Year Remod/Add Roof Style Roof Matl Exterior 1st Exterior 2nd Mas Vnr Type  Mas Vnr Area Exter Qual Exter Cond Foundation Bsmt Qual Bsmt Cond Bsmt Exposure BsmtFin Type 1  BsmtFin SF 1 BsmtFin Type 2  BsmtFin SF 2  Bsmt Unf SF  Total Bsmt SF Heating Heating QC Central Air Electrical   1st Flr SF   2nd Flr SF  Low Qual Fin SF  Gr Liv Area  Bsmt Full Bath  Bsmt Half Bath    Full Bath    Half Bath  Bedroom AbvGr  Kitchen AbvGr Kitchen Qual  TotRms AbvGrd Functional   Fireplaces Fireplace Qu Garage Type  Garage Yr Blt Garage Finish  Garage Cars  Garage Area Garage Qual Garage Cond Paved Drive  Wood Deck SF  Open Porch SF  Enclosed Porch   3Ssn Porch  Screen Porch    Pool Area Pool QC  Fence Misc Feature      Misc Val      Mo Sold      Yr Sold Sale Type Sale Condition      SalePrice
+count   2930.00000  2.930000e+03  2930.000000      2930   2440.000000    2930.000000   2930   198      2930         2930      2930       2930       2930         2930        2930        2930      2930        2930   2930.000000   2930.000000  2930.000000     2930.000000       2930      2930         2930         2930         1155   2907.000000       2930       2930       2930      2850      2850          2847           2850   2929.000000           2849   2929.000000  2929.000000    2929.000000    2930       2930        2930       2929  2930.000000  2930.000000      2930.000000  2930.000000     2928.000000     2928.000000  2930.000000  2930.000000    2930.000000    2930.000000         2930    2930.000000       2930  2930.000000         1508        2773    2771.000000          2771  2929.000000  2929.000000        2771        2771        2930   2930.000000    2930.000000     2930.000000  2930.000000   2930.000000  2930.000000      13    572          106   2930.000000  2930.000000  2930.000000      2930           2930    2930.000000
+unique         NaN           NaN          NaN         7           NaN            NaN      2     2         4            4         3          5          3           28           9           8         5           8           NaN           NaN          NaN             NaN          6         8           16           17            4           NaN          4          5          6         5         5             4              6           NaN              6           NaN          NaN            NaN       6          5           2          5          NaN          NaN              NaN          NaN             NaN             NaN          NaN          NaN            NaN            NaN            5            NaN          8          NaN            5           6            NaN             3          NaN          NaN           5           5           3           NaN            NaN             NaN          NaN           NaN          NaN       4      4            5           NaN          NaN          NaN        10              6            NaN
+top            NaN           NaN          NaN        RL           NaN            NaN   Pave  Grvl       Reg          Lvl    AllPub     Inside        Gtl        NAmes        Norm        Norm      1Fam      1Story           NaN           NaN          NaN             NaN      Gable   CompShg      VinylSd      VinylSd      BrkFace           NaN         TA         TA      PConc        TA        TA            No            GLQ           NaN            Unf           NaN          NaN            NaN    GasA         Ex           Y      SBrkr          NaN          NaN              NaN          NaN             NaN             NaN          NaN          NaN            NaN            NaN           TA            NaN        Typ          NaN           Gd      Attchd            NaN           Unf          NaN          NaN          TA          TA           Y           NaN            NaN             NaN          NaN           NaN          NaN      Ex  MnPrv         Shed           NaN          NaN          NaN       WD          Normal            NaN
+freq           NaN           NaN          NaN      2273           NaN            NaN   2918   120      1859         2633      2927       2140       2789          443        2522        2900      2425        1481           NaN           NaN          NaN             NaN       2321      2887         1026         1015          880           NaN       1799       2549       1310      1283      2616          1906            859           NaN           2499           NaN          NaN            NaN    2885       1495        2734       2682          NaN          NaN              NaN          NaN             NaN             NaN          NaN          NaN            NaN            NaN         1494            NaN       2728          NaN          744        1731            NaN          1231          NaN          NaN        2615        2665        2652           NaN            NaN             NaN          NaN           NaN          NaN       4    330           95           NaN          NaN          NaN      2536           2413            NaN
+mean    1465.50000  7.144645e+08    57.387372       NaN     69.224590   10147.921843    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      6.094881      5.563140  1971.356314     1984.266553        NaN       NaN          NaN          NaN          NaN    101.896801        NaN        NaN        NaN       NaN       NaN           NaN            NaN    442.629566            NaN     49.722431   559.262547    1051.614544     NaN        NaN         NaN        NaN  1159.557679   335.455973         4.676792  1499.690444        0.431352        0.061134     1.566553     0.379522       2.854266       1.044369          NaN       6.443003        NaN     0.599317          NaN         NaN    1978.132443           NaN     1.766815   472.819734         NaN         NaN         NaN     93.751877      47.533447       23.011604     2.592491     16.002048     2.243345     NaN    NaN          NaN     50.635154     6.216041  2007.790444       NaN            NaN  180796.060068
+std      845.96247  1.887308e+08    42.638025       NaN     23.365335    7880.017759    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      1.411026      1.111537    30.245361       20.860286        NaN       NaN          NaN          NaN          NaN    179.112611        NaN        NaN        NaN       NaN       NaN           NaN            NaN    455.590839            NaN    169.168476   439.494153     440.615067     NaN        NaN         NaN        NaN   391.890885   428.395715        46.310510   505.508887        0.524820        0.245254     0.552941     0.502629       0.827731       0.214076          NaN       1.572964        NaN     0.647921          NaN         NaN      25.528411           NaN     0.760566   215.046549         NaN         NaN         NaN    126.361562      67.483400       64.139059    25.141331     56.087370    35.597181     NaN    NaN          NaN    566.344288     2.714492     1.316613       NaN            NaN   79886.692357
+min        1.00000  5.263011e+08    20.000000       NaN     21.000000    1300.000000    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      1.000000      1.000000  1872.000000     1950.000000        NaN       NaN          NaN          NaN          NaN      0.000000        NaN        NaN        NaN       NaN       NaN           NaN            NaN      0.000000            NaN      0.000000     0.000000       0.000000     NaN        NaN         NaN        NaN   334.000000     0.000000         0.000000   334.000000        0.000000        0.000000     0.000000     0.000000       0.000000       0.000000          NaN       2.000000        NaN     0.000000          NaN         NaN    1895.000000           NaN     0.000000     0.000000         NaN         NaN         NaN      0.000000       0.000000        0.000000     0.000000      0.000000     0.000000     NaN    NaN          NaN      0.000000     1.000000  2006.000000       NaN            NaN   12789.000000
+25%      733.25000  5.284770e+08    20.000000       NaN     58.000000    7440.250000    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      5.000000      5.000000  1954.000000     1965.000000        NaN       NaN          NaN          NaN          NaN      0.000000        NaN        NaN        NaN       NaN       NaN           NaN            NaN      0.000000            NaN      0.000000   219.000000     793.000000     NaN        NaN         NaN        NaN   876.250000     0.000000         0.000000  1126.000000        0.000000        0.000000     1.000000     0.000000       2.000000       1.000000          NaN       5.000000        NaN     0.000000          NaN         NaN    1960.000000           NaN     1.000000   320.000000         NaN         NaN         NaN      0.000000       0.000000        0.000000     0.000000      0.000000     0.000000     NaN    NaN          NaN      0.000000     4.000000  2007.000000       NaN            NaN  129500.000000
+50%     1465.50000  5.354536e+08    50.000000       NaN     68.000000    9436.500000    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      6.000000      5.000000  1973.000000     1993.000000        NaN       NaN          NaN          NaN          NaN      0.000000        NaN        NaN        NaN       NaN       NaN           NaN            NaN    370.000000            NaN      0.000000   466.000000     990.000000     NaN        NaN         NaN        NaN  1084.000000     0.000000         0.000000  1442.000000        0.000000        0.000000     2.000000     0.000000       3.000000       1.000000          NaN       6.000000        NaN     1.000000          NaN         NaN    1979.000000           NaN     2.000000   480.000000         NaN         NaN         NaN      0.000000      27.000000        0.000000     0.000000      0.000000     0.000000     NaN    NaN          NaN      0.000000     6.000000  2008.000000       NaN            NaN  160000.000000
+75%     2197.75000  9.071811e+08    70.000000       NaN     80.000000   11555.250000    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN      7.000000      6.000000  2001.000000     2004.000000        NaN       NaN          NaN          NaN          NaN    164.000000        NaN        NaN        NaN       NaN       NaN           NaN            NaN    734.000000            NaN      0.000000   802.000000    1302.000000     NaN        NaN         NaN        NaN  1384.000000   703.750000         0.000000  1742.750000        1.000000        0.000000     2.000000     1.000000       3.000000       1.000000          NaN       7.000000        NaN     1.000000          NaN         NaN    2002.000000           NaN     2.000000   576.000000         NaN         NaN         NaN    168.000000      70.000000        0.000000     0.000000      0.000000     0.000000     NaN    NaN          NaN      0.000000     8.000000  2009.000000       NaN            NaN  213500.000000
+max     2930.00000  1.007100e+09   190.000000       NaN    313.000000  215245.000000    NaN   NaN       NaN          NaN       NaN        NaN        NaN          NaN         NaN         NaN       NaN         NaN     10.000000      9.000000  2010.000000     2010.000000        NaN       NaN          NaN          NaN          NaN   1600.000000        NaN        NaN        NaN       NaN       NaN           NaN            NaN   5644.000000            NaN   1526.000000  2336.000000    6110.000000     NaN        NaN         NaN        NaN  5095.000000  2065.000000      1064.000000  5642.000000        3.000000        2.000000     4.000000     2.000000       8.000000       3.000000          NaN      15.000000        NaN     4.000000          NaN         NaN    2207.000000           NaN     5.000000  1488.000000         NaN         NaN         NaN   1424.000000     742.000000     1012.000000   508.000000    576.000000   800.000000     NaN    NaN          NaN  17000.000000    12.000000  2010.000000       NaN            NaN  755000.000000
+
+=== Null Values ===
+Order                 0
+PID                   0
+MS SubClass           0
+MS Zoning             0
+Lot Frontage        490
+Lot Area              0
+Street                0
+Alley              2732
+Lot Shape             0
+Land Contour          0
+Utilities             0
+Lot Config            0
+Land Slope            0
+Neighborhood          0
+Condition 1           0
+Condition 2           0
+Bldg Type             0
+House Style           0
+Overall Qual          0
+Overall Cond          0
+Year Built            0
+Year Remod/Add        0
+Roof Style            0
+Roof Matl             0
+Exterior 1st          0
+Exterior 2nd          0
+Mas Vnr Type       1775
+Mas Vnr Area         23
+Exter Qual            0
+Exter Cond            0
+Foundation            0
+Bsmt Qual            80
+Bsmt Cond            80
+Bsmt Exposure        83
+BsmtFin Type 1       80
+BsmtFin SF 1          1
+BsmtFin Type 2       81
+BsmtFin SF 2          1
+Bsmt Unf SF           1
+Total Bsmt SF         1
+Heating               0
+Heating QC            0
+Central Air           0
+Electrical            1
+1st Flr SF            0
+2nd Flr SF            0
+Low Qual Fin SF       0
+Gr Liv Area           0
+Bsmt Full Bath        2
+Bsmt Half Bath        2
+Full Bath             0
+Half Bath             0
+Bedroom AbvGr         0
+Kitchen AbvGr         0
+Kitchen Qual          0
+TotRms AbvGrd         0
+Functional            0
+Fireplaces            0
+Fireplace Qu       1422
+Garage Type         157
+Garage Yr Blt       159
+Garage Finish       159
+Garage Cars           1
+Garage Area           1
+Garage Qual         159
+Garage Cond         159
+Paved Drive           0
+Wood Deck SF          0
+Open Porch SF         0
+Enclosed Porch        0
+3Ssn Porch            0
+Screen Porch          0
+Pool Area             0
+Pool QC            2917
+Fence              2358
+Misc Feature       2824
+Misc Val              0
+Mo Sold               0
+Yr Sold               0
+Sale Type             0
+Sale Condition        0
+SalePrice             0
+
+=== Cleaning Suggestions ===
+- Consider dropping column 'Alley' (more than 50% missing values).
+- Consider dropping column 'Mas Vnr Type' (more than 50% missing values).
+- Consider dropping column 'Pool QC' (more than 50% missing values).
+- Consider dropping column 'Fence' (more than 50% missing values).
+- Consider dropping column 'Misc Feature' (more than 50% missing values).
+- Column 'Lot Frontage' has missing values. Fill with mean or median.
+- Column 'Alley' has missing values. Fill with the most frequent value (mode).
+- Column 'Mas Vnr Type' has missing values. Fill with the most frequent value (mode).
+- Column 'Mas Vnr Area' has missing values. Fill with mean or median.
+- Column 'Bsmt Qual' has missing values. Fill with the most frequent value (mode).
+- Column 'Bsmt Cond' has missing values. Fill with the most frequent value (mode).
+- Column 'Bsmt Exposure' has missing values. Fill with the most frequent value (mode).
+- Column 'BsmtFin Type 1' has missing values. Fill with the most frequent value (mode).
+- Column 'BsmtFin SF 1' has missing values. Fill with mean or median.
+- Column 'BsmtFin Type 2' has missing values. Fill with the most frequent value (mode).
+- Column 'BsmtFin SF 2' has missing values. Fill with mean or median.
+- Column 'Bsmt Unf SF' has missing values. Fill with mean or median.
+- Column 'Total Bsmt SF' has missing values. Fill with mean or median.
+- Column 'Electrical' has missing values. Fill with the most frequent value (mode).
+- Column 'Bsmt Full Bath' has missing values. Fill with mean or median.
+- Column 'Bsmt Half Bath' has missing values. Fill with mean or median.
+- Column 'Fireplace Qu' has missing values. Fill with the most frequent value (mode).
+- Column 'Garage Type' has missing values. Fill with the most frequent value (mode).
+- Column 'Garage Yr Blt' has missing values. Fill with mean or median.
+- Column 'Garage Finish' has missing values. Fill with the most frequent value (mode).
+- Column 'Garage Cars' has missing values. Fill with mean or median.
+- Column 'Garage Area' has missing values. Fill with mean or median.
+- Column 'Garage Qual' has missing values. Fill with the most frequent value (mode).
+- Column 'Garage Cond' has missing values. Fill with the most frequent value (mode).
+- Column 'Pool QC' has missing values. Fill with the most frequent value (mode).
+- Column 'Fence' has missing values. Fill with the most frequent value (mode).
+- Column 'Misc Feature' has missing values. Fill with the most frequent value (mode).
