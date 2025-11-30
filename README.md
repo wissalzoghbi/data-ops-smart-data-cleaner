@@ -12,12 +12,13 @@ This project builds an automated assistant that performs basic data cleaning and
 ## 📁 Folder Structure
 
 smart_data_cleaner/
+``` 
 ├── data/ # Raw datasets go here
 ├── scripts/ # Python scripts for processing
 ├── notebooks/ # Optional Jupyter Notebooks
 ├── outputs/ # Cleaned files and generated visuals
 └── README.md
-
+``` 
 ## 🔧 Technologies
 
 - Python (pandas, seaborn, matplotlib)
@@ -35,3 +36,4 @@ smart_data_cleaner/
 1. Place your CSV dataset inside the `data/` folder
 2. Run the cleaning script from the `scripts/` folder
 3. Find results in the `outputs/` folder
+
